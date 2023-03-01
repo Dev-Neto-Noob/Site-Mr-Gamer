@@ -1,0 +1,152 @@
+/* Estilos gerais */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Tilt Warp;
+    background-color: black;
+}
+
+
+/* Estilos do cabeçalho */
+header {
+	background-color: #db1010;
+	color: #fff;
+	padding: 10px;
+}
+
+header h1 {
+	margin: 0;
+    margin-left: 40px;
+}
+
+h2 {
+    margin: 0;
+    color: #f2f2f2;
+}
+
+p {
+    margin: 0;
+    color: #f2f2f2;
+}
+
+nav ul {
+	margin: 3px;
+    margin-left: 800px;
+	padding: 0;
+	list-style: none;
+    background-color: #333;
+    border-radius: 3px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 23px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none
+}
+
+/* Estilos do conteúdo principal */
+main {
+	margin: 20px;
+}
+
+.jogos {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.jogo {
+	width: calc(33.33% - 20px);
+	margin: 10px;
+	background-color: rgb(12, 12, 13);
+	padding: 10px;
+	text-align: center;
+}
+
+h3 {
+    color: beige;
+}
+
+.jogo img {
+	width: 40%;
+	max-width: 15px;
+	margin-bottom: 9px;
+  border-radius: 48%;
+}
+
+/* Estilos do rodapé */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+.logo-title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.logo {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+}
+
+.logo img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  @media only screen and (max-width: 480px) {
+    /* Estilos para telas menores */
+    .container {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Estilos para telas médias */
+    .container {
+      width: 80%;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    /* Estilos para telas grandes */
+    .container {
+      width: 70%;
+    }
+  }
+  .jogo img {
+    max-width: 100%;
+    height: auto;
+  }
+  .logo-title{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .nav ul{
+    width: 50%;
+    padding: 10px;
+  }
+  
+    
+  
+  
+
